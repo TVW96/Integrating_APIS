@@ -1,7 +1,8 @@
 # Integrating Third Party APIs
-author: Troy Washington
 
-## Hi BC, page is work in progress. I've got to comeback and resubmit this one, I found no need to leave documentation for test cases when all I did was fetch and display data from an API. I did error handling for unsuccessful API responses but not much else was done on the page.  
+### This application renders a linechart displaying the stock prices of Apple Inc. (AAPL). 
+
+Error handling for unsuccessful API responses included in async fetch response function. Receiving fetch response dataa as 'stockData' an array of data strings representing Apple Inc. stock market pricing for each day in evaluation, and 'data' which is an array of single dataset objects dataset objects to be mapped and included within the line chart. Useeffect hook loads fetch request on page start-up and refresh requiring no user interaction to function. 
 
 Third-party APIs used: 
 - Market Stack https://marketstack.com/documentation
